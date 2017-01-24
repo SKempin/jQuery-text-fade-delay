@@ -1,0 +1,42 @@
+{
+  "name": "jquery-text-fade-delay",
+  "version": "1.0.0",
+  "description": "Fade in a series of blockquote elements followed by a delayed cite elements, and simultaneously fade both out.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKempin/jQuery-text-fade-delay.git"
+  },
+  "keywords": [
+    "jquery",
+    "fade",
+    "fader"
+  ],
+  "author": "Stephen Kempin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKempin/jQuery-text-fade-delay/issues"
+  },
+  "homepage": "https://github.com/SKempin/jQuery-text-fade-delay#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-stats": "0.0.4",
+    "gulp-uglify": "^2.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
