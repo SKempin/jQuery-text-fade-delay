@@ -10,7 +10,7 @@ Fade in a series of blockquote elements followed by a delayed cite elements, and
 
 If you would like to download the code and try it for yourself:
 
-1. Clone the repo: `https://github.com/SKempin/jQuery-text-fade-delay.git`
+1. Clone the repo: `https://github.com/SKempin/jQuery-text-fade-delay.git` or `bower install jquery-text-fade-delay`
 2. `cd /jQuery-text-fade-delay`
 2. Install NPM packages: `npm install`
 3. Build project and launch: `gulp`
