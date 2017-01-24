@@ -1,0 +1,41 @@
+@import 'normalize';
+
+#quotes {
+    height: 100%;
+    display: block;
+    overflow: visible;
+    clear: both;
+    min-height: 50px;
+
+    &.ul {
+        position: relative;
+        display: block;
+        overflow: visible;
+        margin: 0;
+    }
+
+    li {
+        list-style: none;
+        position: absolute;
+
+        blockquote {
+            top: 0;
+            left: 0;
+            overflow: visible;
+            list-style: none;
+            display: block;
+            opacity: 0;
+            clear: both;
+            margin: 0;
+        }
+
+        cite {
+            display: block;
+            font-style: italic;
+            /*opacity:0;*/
+            padding-top: 8px;
+            clear: both;
+        }
+
+    }
+}

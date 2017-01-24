@@ -1,0 +1,25 @@
+{
+    "name": "jquery-text-fade-delay",
+    "description": "Fade in a series of blockquote elements followed by a delayed cite elements, and simultaneously fade both out.",
+    "main": [
+        "dist/js/fader.min.js",
+        "dist/css/fader.min.js"
+    ],
+    "authors": [
+        "Stephen Kempin <contact@stephenkempin.co.uk"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "jquery",
+        "fade",
+        "fader"
+    ],
+    "homepage": "https://github.com/SKempin/jQuery-text-fade-delay",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

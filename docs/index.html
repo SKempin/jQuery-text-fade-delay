@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Text Fade Delay Demo</title>
+	<meta name="description" content="Fade in a series of blockquote elements followed by a delayed cite elements, and simultaneously fade both out. A jQuery plugin developed by Stephen Kempin.">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/fader.min.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/demo.min.css" /> 
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10 col-sm-12">
+				<h1>jQuery Text Fade Delay Demo</h1> </div>
+		</div>
+		<div class="row demo">
+			<div class="col-xs-10 col-sm-12">
+				<ul id="quotes">
+					<li>
+						<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</blockquote> <cite>&mdash; Alabama</cite> </li>
+					<li>
+						<blockquote>Excepteur sint occaecat cupidatat non proident!</blockquote> <cite>&mdash; Georgia</cite> </li>
+					<li>
+						<blockquote>Duis aute irure dolor in reprehenderit?</blockquote> <cite>&mdash; Illinois</cite> </li>
+					<li>
+						<blockquote>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</blockquote> <cite>&mdash; West Virginia</cite> </li>
+				</ul>
+			</div>
+		</div>
+		<div class="row github">
+			<div class="col-xs-10 col-sm-12"> <a href="https://github.com/SKempin/jQuery-text-fade-delay" rel="author">View Code on Github</a> </div>
+		</div>
+	</div>
+	<script type='text/javascript' src='js/fader.min.js'></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$("#quotes").fader({
+				fadeSpeed: 750,
+				duration: 4000,
+				citeDelay: 1500,
+				citeFadeSpeed: 1000
+			})
+		});
+	</script>
+</body>
+
+</html>

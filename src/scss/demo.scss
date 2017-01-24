@@ -1,0 +1,48 @@
+// imports
+@import url( 'https://fonts.googleapis.com/css?family=Poppins');
+@import 'bootstrap';
+
+// body
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 4em;
+    background: #67B26F;
+    background: -webkit-linear-gradient(to left, #67B26F , #4ca2cd);
+    background: linear-gradient(to left, #67B26F , #4ca2cd);
+}
+
+// heading
+h1 {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    display: block;
+}
+
+// demo
+.demo {
+    margin-top: 1em;
+    font-size: 24px;
+    min-height: 150px;
+}
+
+// github
+.github {
+    text-align: center;
+    margin: 4em 0;
+    font-weight: bold;
+    a {
+        padding: 6px 9px;
+        text-decoration: none;
+        border: solid 2px white;
+        border-radius: 5px; 
+        color: white;
+        transition: background-color 0.5s ease;
+        &:hover {
+            background: white;
+            transition: background-color 0.5s ease;
+            color: #67B26F;
+        }
+    }
+}
