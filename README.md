@@ -2,7 +2,7 @@
 Fade in a series of blockquote elements followed by a delayed cite elements, and simultaneously fade both out.
 
 ## Demo
-[jQuery Text Fade Delay - Live DEMO] (https://github.com/SKempin/jQuery-text-fade-delay)
+[jQuery Text Fade Delay - Live DEMO] (https://skempin.github.io/jQuery-text-fade-delay/)
 
 
 ## Installation
