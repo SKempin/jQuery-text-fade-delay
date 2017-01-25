@@ -6,7 +6,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
-    padding-top: 4em;
+    padding-top: 2em;
     background: #67B26F;
     background: -webkit-linear-gradient(to left, #67B26F , #4ca2cd);
     background: linear-gradient(to left, #67B26F , #4ca2cd);
@@ -15,8 +15,8 @@ body {
 // heading
 h1 {
     text-align: center;
-    padding-bottom: 15px;
-    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
     display: block;
 }
 
@@ -25,6 +25,16 @@ h1 {
     margin-top: 1em;
     font-size: 24px;
     min-height: 150px;
+    
+    ul {
+        padding-left: 0;
+    }
+    
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+        margin-top: 3em;
+    }
+    
 }
 
 // github
