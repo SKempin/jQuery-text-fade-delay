@@ -1,4 +1,7 @@
 # jQuery Text Fade Delay
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+
 Fade in a series of blockquote elements followed by a delayed cite elements, and simultaneously fade both out.
 
 ## Demo
