@@ -80,4 +80,4 @@ citeFadeSpeed | `750` | Cite fade in speed (ms)
 [Stephen Kempin](http://www.stephenkempin.co.uk)
 
 ## Licence
-MIT
+[MIT](https://github.com/SKempin/jQuery-text-fade-delay/blob/master/LICENSE)
