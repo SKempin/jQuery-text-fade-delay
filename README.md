@@ -1,6 +1,9 @@
 # jQuery Text Fade Delay
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/SKempin/jQuery-text-fade-delay/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/SKempin/jQuery-text-fade-delay.svg?style=flat-square)](https://github.com/SKempin/jQuery-text-fade-delay/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/SKempin/jQuery-text-fade-delay.svg?style=flat-square)](https://github.com/SKempin/jQuery-text-fade-delay/network)
+
 
 Fade in a series of blockquote elements followed by a delayed cite elements, and simultaneously fade both out.
 
