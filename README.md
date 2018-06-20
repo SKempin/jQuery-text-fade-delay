@@ -80,7 +80,9 @@ citeFadeSpeed | `750` | Cite fade in speed (ms)
 
 
 ## Author
-[Stephen Kempin](http://www.stephenkempin.co.uk)
+[Stephen Kempin](https://www.stephenkempin.co.uk)
+
+[SK-UK Google Play Store](https://play.google.com/store/apps/developer?id=SK+-+UK)
 
 ## Licence
 [MIT](https://github.com/SKempin/jQuery-text-fade-delay/blob/master/LICENSE)
