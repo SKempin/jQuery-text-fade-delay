@@ -1,6 +1,9 @@
+// imports
 var $ = require("jquery");
 global.jQuery = require("jquery");
 window.jQuery = $;
+
+// function
 (function($) {
   $.fn.fader = function(options) {
     // default settings
@@ -13,6 +16,7 @@ window.jQuery = $;
       },
       options
     );
+
     /**
      * Fades out element `toFade`, fading in `toFade+1`
      * If `toFade` is the last element, then the first element will be
@@ -54,7 +58,9 @@ window.jQuery = $;
       setTimeout(function() {
         fade(toShow, testimonial, cite);
       }, settings.duration);
-    } // find li, add to text array and hide them
+    }
+
+    // find li, add to text array and hide them
     var testimonial = [];
     $(this)
       .find("li blockquote")
@@ -63,7 +69,9 @@ window.jQuery = $;
         $(this).css({
           opacity: 0
         });
-      }); // find li, add to text array and hide them
+      });
+
+    // find li, add to text array and hide them
     var cite = [];
     $(this)
       .find("li cite")
@@ -78,7 +86,9 @@ window.jQuery = $;
         opacity: 1
       },
       settings.fadeSpeed / 2
-    ); // run function
+    );
+
+    // run function
     setTimeout(function() {
       fade(0, testimonial, cite);
     }, settings.duration);
