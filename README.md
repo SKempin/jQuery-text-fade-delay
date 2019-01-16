@@ -8,7 +8,7 @@
 Fade in a series of blockquote elements followed by a delayed cite elements, and simultaneously fade both out.
 
 ## Demo
-[jQuery Text Fade Delay - Live DEMO] (https://skempin.github.io/jQuery-text-fade-delay/)
+[jQuery Text Fade Delay - Live DEMO](https://skempin.github.io/jQuery-text-fade-delay/)
 
 
 ## Installation
@@ -50,13 +50,12 @@ If you would like to download the code and try it for yourself:
 3. Call the plugin:
 
     ```javascript
-        $("#quotes").fader({
-    	    fadeSpeed: 750,     // blockquote fade in speed
-            duration: 4000,     // duration before fading to the next blockquote
-            citeDelay: 1500,    // delay until cite element fades in
-            citeFadeSpeed: 1000 // cite fade in speed
-    	})
-
+	$("#quotes").fader({
+		fadeSpeed: 750,     // blockquote fade in speed
+		duration: 4000,     // duration before fading to the next blockquote
+		citeDelay: 1500,    // delay until cite element fades in
+		citeFadeSpeed: 1000 // cite fade in speed
+	})
     ```
 
 ## Options
