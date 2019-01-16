@@ -24,19 +24,19 @@
     "jquery": "^3.1.1"
   },
   "devDependencies": {
-    "browserify": "^13.3.0",
-    "del": "^2.2.2",
+    "browserify": "^16.2.3",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-clean-css": "^2.3.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-size": "^2.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.4.0",
     "gulp-stats": "0.0.4",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^3.0.1",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^2.0.0"
   }
 }
